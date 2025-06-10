@@ -58,3 +58,12 @@ export default tseslint.config({
   },
 })
 ```
+
+## Running the application
+
+To start the development server, install dependencies and run the `dev` script from the web app:
+
+```bash
+pnpm install
+pnpm --filter apps/web dev
+```

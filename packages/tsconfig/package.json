@@ -1,0 +1,9 @@
+{
+  "name": "@codex/tsconfig",
+  "version": "1.0.0",
+  "private": true,
+  "exports": {
+    "./app": "./tsconfig.app.json",
+    "./node": "./tsconfig.node.json"
+  }
+}
