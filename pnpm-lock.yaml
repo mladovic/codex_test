@@ -73,7 +73,14 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5(jiti@1.21.7)(yaml@2.8.0)
 
-  packages/components: {}
+  packages/components:
+    devDependencies:
+      '@types/react':
+        specifier: ^19.1.2
+        version: 19.1.7
+      react:
+        specifier: ^19.1.0
+        version: 19.1.0
 
   packages/eslint-config:
     dependencies:
