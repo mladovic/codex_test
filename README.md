@@ -31,6 +31,12 @@ export default tseslint.config({
 })
 ```
 
+## Styling with Tailwind CSS
+
+This project uses [Tailwind CSS](https://tailwindcss.com/) for utility-first
+styling. Modify `tailwind.config.js` to customize your design tokens and start
+using Tailwind classes in the components.
+
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
