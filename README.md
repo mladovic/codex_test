@@ -67,3 +67,9 @@ To start the development server, install dependencies and run the `dev` script f
 pnpm install
 pnpm --filter apps/web dev
 ```
+
+## GitHub Pages
+
+This repository includes a workflow that builds the `web` app and deploys it to
+GitHub Pages whenever changes are pushed to the `main` branch. The static files
+are generated into `apps/web/dist` and served from the `gh-pages` branch.
