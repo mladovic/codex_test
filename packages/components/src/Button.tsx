@@ -1,14 +1,14 @@
-import { ButtonHTMLAttributes } from 'react'
+import type { ButtonHTMLAttributes } from "react";
 
-export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-export function Button({ className = '', ...props }: ButtonProps) {
+export function Button({ className = "", ...props }: ButtonProps) {
   return (
     <button
       className={`px-4 py-2 bg-blue-600 text-white rounded ${className}`}
       {...props}
     />
-  )
+  );
 }
 
-export default Button
+export default Button;
